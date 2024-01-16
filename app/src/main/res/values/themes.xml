@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SampleApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/btnRed</item>
+    </style>
+
+    <style name="Base.Theme.SplashScreen" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">#5A5A5A</item>
+    </style>
+
+    <style name="RedProgressBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/btnRed</item>
+    </style>
+
+    <style name="Base.Theme.SampleApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.Theme.SampleApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Base.Theme.SampleApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/btnRedLight</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

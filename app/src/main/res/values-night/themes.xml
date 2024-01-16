@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SampleApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/btnRed</item>
+    </style>
+
+    <style name="Base.Theme.SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#5A5A5A</item>
+    </style>
+
+    <style name="RedProgressBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/btnRed</item>
+    </style>
+
+</resources>
